@@ -81,6 +81,13 @@ defmodule DB.Schema.Video do
     from(v in query, preload: [:statements])
   end
 
+  @doc """
+  Preloads categories for given video query
+  """
+  def with_categories(query) do
+    from(v in query, preload: [:categories])
+  end
+
   # Utils
 
   @doc """
