@@ -4,7 +4,7 @@ defmodule CaptainFact.Mixfile do
   def project do
     [
       app: :captain_fact,
-      version: "0.8.12",
+      version: "0.8.13",
       build_path: "../../_build",
       config_path: "../../config/config.exs",
       deps_path: "../../deps",
@@ -41,11 +41,13 @@ defmodule CaptainFact.Mixfile do
       {:phoenix_pubsub, "~> 1.0"},
       {:phoenix_html, "~> 2.6"},
       {:gettext, "~> 0.13.1"},
+      {:google_api_you_tube, "~> 0.1.0"},
       {:kaur, "~> 1.1"},
       {:cowboy, "~> 1.0"},
       {:corsica, "~> 1.0"},
       {:bcrypt_elixir, "~> 1.0"},
       {:guardian, "~> 1.1.0"},
+      {:guardian_db, "~> 1.1.0"},
       {:floki, "~> 0.20.2"},
       {:html_entities, "~> 0.3"},
       {:httpoison, "~> 0.11"},
