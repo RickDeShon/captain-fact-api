@@ -8,7 +8,7 @@ defmodule CF.GraphQL.Resolvers.Users do
   alias DB.Repo
   alias DB.Schema.User
   alias DB.Schema.UserAction
-  alias DB.Query.Actions
+  alias CF.Actions
 
   @doc """
   Resolve a user by its id or username
